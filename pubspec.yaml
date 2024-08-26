@@ -1,0 +1,32 @@
+name: Engkhaled
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.4  # إضافة مكتبة http هنا
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Add Product.png
+    - assets/images/EditDelete Product.jpg
+    - assets/images/Search Product.jpeg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/images.png" # مسار الصورة الجديدة
